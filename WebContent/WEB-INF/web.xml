@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd" version="3.1">
+ <display-name>com.unisys.poc.MachineLearning.WekaApp</display-name>
+  <welcome-file-list>
+    <welcome-file>wekaJersey.html</welcome-file>
+  </welcome-file-list>
+  <servlet> 
+   <servlet-name>com.unisys.poc.MachineLearning.WekaApp</servlet-name> 
+   <servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class> 
+   <init-param>
+        <param-name>jersey.config.server.provider.scanning.recursive</param-name>
+        <param-value>true</param-value>
+    </init-param>
+    <init-param>
+        <param-name>jersey.config.server.provider.classnames</param-name>
+        <param-value>com.unisys.poc.MachineLearning</param-value>
+    </init-param>
+    <init-param>
+       <param-name>com.sun.jersey.api.json.POJOMappingFeature</param-name>
+       <param-value>true</param-value>
+    </init-param>
+  <load-on-startup>1</load-on-startup>
+ </servlet> 
+<servlet-mapping> 
+    <servlet-name>com.unisys.poc.MachineLearning.WekaApp</servlet-name> 
+    <url-pattern>/rest/*</url-pattern>
+</servlet-mapping>  
+</web-app>

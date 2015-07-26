@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.0 ">
+		<attributes>
+			<attribute name="owner.project.facets" value="jst.web"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/IoT/java-json.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/IoT/weka_jar/weka/weka.jar" sourcepath="D:/IoT/weka_jar/weka/weka-src.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/IoT/weka_jar/weka/weka-src.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/IoT/mysql-connector-java-5.1.35-bin.jar">
+		<attributes>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/aopalliance-repackaged-2.4.0-b12.jar"/>
+	<classpathentry kind="lib" path="D:/IoT/jersey-server-1.17.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/asm-debug-all-5.0.3.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/hk2-api-2.4.0-b12.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/hk2-locator-2.4.0-b12.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/hk2-utils-2.4.0-b12.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/javassist-3.18.1-GA.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/javax.annotation-api-1.2.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/javax.inject-2.4.0-b12.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/javax.servlet-api-3.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/jaxb-api-2.2.7.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/jersey-guava-2.18.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/org.osgi.core-4.2.0.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/osgi-resource-locator-1.0.1.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/persistence-api-1.0.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/ext/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="D:/Web softwares/jaxrs-ri-2.18/jaxrs-ri/api/javax.ws.rs-api-2.0.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="org.eclipse.jst.component.dependency" value="/WEB-INF/lib"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

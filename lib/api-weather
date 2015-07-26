@@ -1,0 +1,25 @@
+@relation weather
+
+@attribute weather{hot,pleasant,cool,cold}  
+@attribute temperature numeric                  
+@attribute pressure numeric
+@attribute humidity numeric
+@attribute wind-speed numeric
+
+@data
+pleasant,291.929,994.56,74,2.97  
+pleasant,292.829,1012.23,57,1.87  
+pleasant,292.829,1022.2,48,5.62 
+pleasant,290.579,939.93,70,1.17 
+cool,287.079,1020.58,67,5.47 
+cool,282.629,1028.52,100,3.92 
+cool,288.103,838.18,99,1.56 
+pleasant,296.103,974.53,59,1.81 
+hot,306.103,989.04,65,6.01 
+hot,302.303,999.57,43,3.11
+pleasant,292.903,793.52,23,1.61 
+hot,306.553,1010.44,66,7.71 
+cool,282.253,1016.76,94,4.26 
+hot,302.505,1006.72,84,3.42 
+cold,216.296,1061.25,0,6.92
+cold,276.496,1003.8,87,5.67
